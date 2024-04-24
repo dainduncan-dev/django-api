@@ -7,7 +7,10 @@ class MovieAdminConsole(admin.ModelAdmin):
     list_display = (
         "id",
         "title",
-        "runtime",
         "release_date",
+        "runtime",
+        "runtime_formatted",
+        "reviewers",
+        "avg_rating",
     )
 
